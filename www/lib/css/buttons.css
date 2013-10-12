@@ -1,0 +1,63 @@
+[class*="btn"] {
+  font-family: Roboto, sans-serif;
+  border: none;
+  padding: 11px 36px 10px;
+  background: #474747;
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 3px rgba(0,0,0,0.5);
+     -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 3px rgba(0,0,0,0.5);
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 3px rgba(0,0,0,0.5);
+  color: #fff;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 14px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  width: 300px;
+}
+
+[class*="btn"]:hover,
+[class*="btn"].hover,
+[class*="btn"]:focus,
+[class*="btn"].focused {
+  outline: none;
+  background: #660066;
+  -webkit-box-shadow: inset 0 0 1px 2pt #491B50, 0 2px 3px rgba(0,0,0,0.5);
+     -moz-box-shadow: inset 0 0 1px 2pt #491B50, 0 2px 3px rgba(0,0,0,0.5);
+          box-shadow: inset 0 0 1px 2pt #491B50, 0 2px 3px rgba(0,0,0,0.5);
+}
+
+[class*="btn"]:active,
+[class*="btn"].active {
+  background: #B200B2;
+  -webkit-box-shadow: inset 0 1px 0 #FF99FF, 0 2px 3px #FF99FF, 0 0 2px 2pt #FF99FF;
+     -moz-box-shadow: inset 0 1px 0 #FF99FF, 0 2px 3px #FF99FF, 0 0 2px 2pt #FF99FF;
+          box-shadow: inset 0 1px 0 #FF99FF, 0 2px 3px #FF99FF, 0 0 2px 2pt #FF99FF;
+  border: none;
+  padding: 11px 36px 10px;
+}
+
+[class*="btn"]:disabled,
+[class*="btn"].disabled,
+.btn[disabled],
+.btn-small[disabled] {
+  opacity: 0.3;
+}
+
+[class*="btn"] + [class*="btn"] {
+  margin-left: 3px;
+}
+
+.btn-small {
+  font-size: 12px;
+}
+
+.btn-block {
+  width: 100%;
+}
+
+.btn-block + .btn-block {
+  margin-left: 0;
+}
