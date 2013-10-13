@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.matloughnane.lick_app_v1" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Lick_App</name>
+    <name>Lick!</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        The galway version of the Lick App
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author email="mat.loughnane@gmail.com" href="http://twitter.com/mat_loughnane">
+        Mat Loughnane
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
